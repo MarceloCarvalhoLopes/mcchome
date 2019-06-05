@@ -18,6 +18,11 @@ app.get('/home', (req, res) => {
     })
 })
 
+app.get('/alavanca', (req, res) => {
+    res.render('alavanca',{      
+    })
+})
+
 app.listen(port, (err) => {
     if (err){
         console.log('server is not running')
